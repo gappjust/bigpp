@@ -1,2 +1,0 @@
-
-scoreboard objectives remove time_since_rest
