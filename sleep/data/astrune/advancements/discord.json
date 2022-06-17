@@ -1,0 +1,25 @@
+{
+	"parent":"astrune:help",
+    "display": {
+        "title": {
+            "text": "Astrune Discord Member",
+            "color": ""
+        },
+        "description": ["",{"text":"Join Astrune's discord for general help and updates","color":"gray"},{"text":"\n\nReward: ","color":"gray"},{"text":"5000 xp","color":"green"}],
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "main": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10000
+    }
+}

@@ -1,0 +1,1 @@
+{"criteria":{"tick":{"trigger":"minecraft:slept_in_bed"}},"rewards":{"function":"server_sleep:sleep_in_bed"}}

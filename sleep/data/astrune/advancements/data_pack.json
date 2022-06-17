@@ -1,0 +1,22 @@
+{
+	"display": {
+        "title": ["",{"text":"Astrune Library","color":"#4d00db"}],
+        "description": {
+            "text": "Library for data packs made by Astrune",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/quartz_bricks.png"
+    },
+    "criteria": {
+        "main": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#astrune:entity"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "astrune:player/damage_entity"
+  }
+}

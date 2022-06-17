@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#astrune:object",
+    "minecraft:armor_stand"
+	]
+}

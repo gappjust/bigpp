@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Tags:[\"stars.ast\"]}"
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "astrune:night"
+      }
+    ]
+  }
+]

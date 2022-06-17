@@ -1,0 +1,91 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+	{
+      "condition": "minecraft:reference",
+      "name": "astrune:player/advertisement"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "astrune:help"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "astrune:player/sneaking"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "astrune:stars"
+    },
+	{
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "astrune": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+	{
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "deal_damage.ast": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+	{
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "death.ast": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+	{
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "kill_player.ast": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+	{
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "leave_game.ast": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+	{
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "take_damage.ast": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+	{
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "trade.ast": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    }
+  ]
+}

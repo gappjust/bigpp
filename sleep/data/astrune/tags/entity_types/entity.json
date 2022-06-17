@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#astrune:mob",
+	"#astrune:object_or_armor_stand",
+	"minecraft:player"
+	]
+}

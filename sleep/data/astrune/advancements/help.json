@@ -1,0 +1,26 @@
+{
+	"parent":"astrune:data_pack",
+    "display": {
+        "title": {
+            "text": "Ask for help",
+            "color": ""
+        },
+        "description": ["",{"text":"Use the command '/trigger astrune'","color":"gray"},{"text":"\n\nReward: ","color":"gray"},{"text":"100 xp","color":"green"}],
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "main": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 100,
+		"function": "astrune:advancement/help"
+    }
+}
